@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+.header {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 5rem;
+  cursor: pointer;
+}
+.res-image {
+  width: 100%;
+  height: 60%;
+}
+
+.res-card {
+  width: 20rem;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 15px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.filter-btn {
+  margin: 9px 3px 9px 9px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card h3,
+.res-card h4,
+.res-card h5,
+.res-card h6 {
+  margin: 4px; /* remove all default margin */
+}
