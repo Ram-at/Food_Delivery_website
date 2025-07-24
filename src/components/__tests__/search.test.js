@@ -19,8 +19,4 @@ it("should render the Body component with search", async () => {
   );
 });
 
-// //   // Step 3: Simulate typing
-// //   fireEvent.change(input, { target: { value: "pizza" } });
-// // const cards  = screen.getAllByTestId("resCard");
-// //   // Step 4: Assert value has changed
-// //   expect(cards.length).toBe(2);
+
